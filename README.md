@@ -4,7 +4,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is a simple implementation of minesweeper built as I was learning React. It is playable on both desktop and mobile. It is not perfect by any means and a list of future improvements is posted at the bottom.
 
 ### Structure
-Inside `/src` the `/components` folder stores the components needed to render the game. The `/board` folder contains `board.jsx` which renders the board and the cells (from `cell.jsx`). The `/form` folder contains `form.jsx` which renders the form needed to get the board info, any input error messages (from `error.jsx`), and the game result along with the option to start a new game (from `result.jsx`). `mineSweeper.jsx` is the container responsible for passing eventhandlers, state, and state updaters to its children to consume. Lastly, `rules.jsx` is a dumb component that renders static text to list the instructions on how to play minesweeper.
+Inside `/src` the `/components` folder stores the components needed to render the game and the `/helper` folder contains helper functions decoupled from game logic. The `/board` folder contains `board.jsx` which renders the board and the cells (from `cell.jsx`). The `/form` folder contains `form.jsx` which renders the form needed to get the board info, any input error messages (from `error.jsx`), and the game result along with the option to start a new game (from `result.jsx`). `mineSweeper.jsx` is the container responsible for passing eventhandlers, state, and state updaters to its children to consume. Lastly, `rules.jsx` is a dumb component that renders static text to list the instructions on how to play minesweeper.
+
+- `src`
+    - `components`
+        - `minesweeper`
+            - `board`
+                - `board.jsx`
+                - `board.css`
+                - `cell.jsx`
+            - `form`
+                - `form.jsx`
+                - `form.css`
+                - `error.jsx`
+                - `result.jsx`
+            - `minesweeper.jsx`
+            - `minesweeper.css`
+            - `rules.jsx`
+            - `rules.css`
+    - `helper`
+        - `index.js`
 
 ### Future Improvements
 - Make it less ugly :sweat_smile:
