@@ -4,6 +4,7 @@
     color: #969696;
     padding-bottom: 3px;
     text-transform: uppercase;
+    width: 100%;
 }
 
 .ms-label-icon {
@@ -31,18 +32,23 @@
 
 /* Result */
 .ms-result {
-     padding-bottom: 10px;
-}
-
-.ms-result-msg {
-    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .ms-result-msg, .ms-new-game {
+    font-size: 4vw;
     text-align: center;
 }
 
+.ms-new-game > button{
+    font-size: 3vw;
+}
+
 @media (min-width: 768px) {
+    .ms-form {
+        margin-top: 30px;
+    }
+
     .ms-result {
         margin-bottom: 20px;
         padding: 15px 0;

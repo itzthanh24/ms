@@ -73,7 +73,7 @@ const Minesweeper = () => {
         }
         
     };
-    
+
     /**
      * Wrapper function that calls another function to set gameOver state. Used by child components to
      * update state that is passed down.
@@ -122,7 +122,7 @@ const Minesweeper = () => {
                 <h1 className='ms-title'>Minesweeper</h1>
             </div>
             <div className='container'>
-                <Result resultMsg={resultMsg} newGame={newGame} gameOver={gameOver.gameOver} gameStart={gameStart} />
+                {gameStart ? <Result resultMsg={resultMsg} newGame={newGame} gameOver={gameOver.gameOver} gameStart={gameStart} /> : ''}
                 {error.isError ? <Error {...errorProps} /> : ''}
                 {!gameStart && !gameOver.gameOver ? <Form {...formProps} /> : ''}
                 {!gameStart ? <Rules /> : ''}

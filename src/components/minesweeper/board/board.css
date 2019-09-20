@@ -1,6 +1,7 @@
 /* Board */
 .ms-board {
     height: 600px;
+    margin-bottom: 50px;
     width: 100%;
 }
 

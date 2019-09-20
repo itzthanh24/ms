@@ -7,12 +7,15 @@
 }
 
 .ms-rules-title {
+    font-size: 4vw;
     font-weight: bold;
     letter-spacing: 5px;
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
+
+.ms-rule {}
 
 .ms-rules-list {
     margin: 0;
