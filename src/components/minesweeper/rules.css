@@ -1,0 +1,23 @@
+/* Rule */
+.ms-rules {
+    background: #ffffff;
+    border: 1px solid #000000;
+    margin: 50px auto;
+    padding: 20px 20px 20px 0;
+}
+
+.ms-rules-title {
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ms-rules-list {
+    margin: 0;
+}
+
+.ms-rule {
+    margin-top: 10px;
+}

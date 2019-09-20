@@ -1,0 +1,50 @@
+/* Form and Error */
+.ms-form-label {
+    border-bottom: 1px solid #969696;
+    color: #969696;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.ms-label-icon {
+    border-bottom: 1px solid #969696;
+    padding-bottom: 3px;
+    position: absolute;
+}
+
+.ms-form-input:focus {
+    border: 2px solid #303f9f;
+}
+
+.ms-form-submit {
+    font-weight: bold;
+    height: 35px;
+    margin-top: 25px;
+    padding: 0;  
+}
+
+.ms-error {
+    color: #f33e3e;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* Result */
+.ms-result {
+     padding-bottom: 10px;
+}
+
+.ms-result-msg {
+    font-size: 25px;
+}
+
+.ms-result-msg, .ms-new-game {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .ms-result {
+        margin-bottom: 20px;
+        padding: 15px 0;
+    }
+}
