@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ms/static/css/main.0949fea7.chunk.css",
+    "main.css": "/ms/static/css/main.afce2d28.chunk.css",
     "main.js": "/ms/static/js/main.cebb3a67.chunk.js",
     "main.js.map": "/ms/static/js/main.cebb3a67.chunk.js.map",
     "runtime~main.js": "/ms/static/js/runtime~main.933051a0.js",
@@ -8,9 +8,9 @@
     "static/js/2.f9c0d3ec.chunk.js": "/ms/static/js/2.f9c0d3ec.chunk.js",
     "static/js/2.f9c0d3ec.chunk.js.map": "/ms/static/js/2.f9c0d3ec.chunk.js.map",
     "index.html": "/ms/index.html",
-    "precache-manifest.d6c008bd0661ebb8958cdaeabd73fed0.js": "/ms/precache-manifest.d6c008bd0661ebb8958cdaeabd73fed0.js",
+    "precache-manifest.2b2ed1bb1bd920f4e66a1ccfe3861869.js": "/ms/precache-manifest.2b2ed1bb1bd920f4e66a1ccfe3861869.js",
     "service-worker.js": "/ms/service-worker.js",
-    "static/css/main.0949fea7.chunk.css.map": "/ms/static/css/main.0949fea7.chunk.css.map",
+    "static/css/main.afce2d28.chunk.css.map": "/ms/static/css/main.afce2d28.chunk.css.map",
     "static/media/bomb.png": "/ms/static/media/bomb.647259d5.png"
   }
 }
