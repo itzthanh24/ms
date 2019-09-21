@@ -104,6 +104,10 @@ const isGameOver = (board, row, col, remainingSafeCells) => {
  * @param {number} col number of columns
  * @returns {Object[]} board new board of cell objects
  */
+// To do: When board is initialized, create a copy to track unclicked cells.
+// Whenever a cell is clicked, we remove it from the copied board. When we reveal,
+// loop through the copied board and change their "isClicked". Worst case scenario:
+// same # of operations (cols * rows - 1). Best case scenario: # of operations (# bombs)
 const revealBoard = (board, rows, cols) => {
     const newBoard = [...board];
     for (let row = 0; row < rows; row++) {
