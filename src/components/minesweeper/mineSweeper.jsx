@@ -11,6 +11,9 @@ import './minesweeper.css';
  * @returns {JSX.Element} form view
  */
 
+ //To do: combine gameOver and gameStart state into gameStatus which is initialized as:
+ //{gameStart: false, gameOver: false, remainingSafeCells: 0, win: false}. Have one 
+ //state updater function for game status related state.
 const Minesweeper = () => {
     const [gameStart, setGameStart] = useState(false);
     const [gameOver, setGameOver] = useState({gameOver: false, result: ''});
@@ -45,6 +48,7 @@ const Minesweeper = () => {
      * setting game start status.
      * @param {UIEvent} event click event
      */
+    //To do: minimum size board should be 1x2 or 2x1. Game should not be playable with 1x1 board.
     const handleFormSubmit = e => {
         e.preventDefault();
         const dimension = inputValues.columns * inputValues.rows;

@@ -30,5 +30,7 @@ Inside `/src` the `/components` folder stores the components needed to render th
 - Use dynamic board size with max width and height and ensure all cells are a square.
     - What happens if user inputs 100 rows by 100 columns or 200 rows by 2 columns?
 - Utilize a store framework (such as `Redux`) to avoid having to pass down and keep track of multiple states.
+- Simply the amount of state needed.
+- Require the board to be at least 2x1 or 1x2. A 1x1 board should not be playable.
 - Add a status bar showing number of bombs remaining and how many safe cells remaining.
 - Fix font and image size when user provides large number of rows and columns.
