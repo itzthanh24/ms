@@ -30,6 +30,8 @@ const Board = props => {
     const [clickedCell, setClickedCell] = useState({row: null, col: null});
     const isInitialRender = useRef(true);
 
+    // Instead of checking for initial render, could also check if clickedCell's
+    // row, col state is null or not. If not null, call isGameOver and so on...
     useEffect(() => {
         if (isInitialRender.current) {
             isInitialRender.current = false;
